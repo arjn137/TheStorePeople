@@ -1,0 +1,1 @@
+The Store People is a multilevel Java Graphical User interface that mimics Amazon.com. Users are able to browse various products in the store, add them to their carts and check out. The products can't actually be bought so the store is essentially just an offline model of an actual store.

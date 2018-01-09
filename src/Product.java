@@ -164,16 +164,16 @@ public class Product implements ActionListener {
 	}
 	
 	private String tab(String desc){
-		String temp="";
-		if(desc.length()>60){
-			temp+=desc.substring(0, 60);
-			temp+="<html><br></html>";
-			temp+=desc.substring(60);
-		}
-		else{
-			temp=desc;
-		}
-		return temp;
+//		String temp="";
+//		if(desc.length()>60){
+//			temp+=desc.substring(0, 60);
+//			temp+="<html><br></html>";
+//			temp+=desc.substring(60);
+//		}
+//		else{
+//			temp=desc;
+//		}
+		return desc;
 	}
 	
 	public void actionPerformed(ActionEvent event) {
